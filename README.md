@@ -2,7 +2,7 @@
 
 Minesweeper is a single-player puzzle video game. The objective of the game is to clear a rectangular board containing hidden "mines" or bombs without detonating any of them, with help from clues about the number of neighbouring mines in each field.
 
-Code for this application can be found on github repo: [Minesweeper Repository](https://github.com/zarko-petrovic/minesweeper)
+Code for this application can be found on github repo: [Minesweeper Repository](https://github.com/zarko-petrovic/minesweeper)<br />
 Application is deployed here:  [Minesweeper](https://zarko-petrovic.github.io/minesweeper)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
