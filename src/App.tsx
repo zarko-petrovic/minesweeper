@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box } from '@mui/material';
 
-import { TopBar } from './features/TopBar/TopBar';
+import { TopBar } from './features/topBar/TopBar';
 import { MineFields } from './features/mineFields/MineFields';
 
 export const App = () => {
