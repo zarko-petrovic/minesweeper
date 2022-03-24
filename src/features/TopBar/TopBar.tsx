@@ -14,7 +14,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 import { useAppDispatch } from '../../app/hooks';
 import { webSocket } from '../../app/webSocket';
-import { setMineFieldsLevel } from '../../features/mineFields/mineFieldsSlice';
+import { setMineFieldsLevel } from '../mineFields/mineFieldsSlice';
 
 const levels = [1, 2, 3, 4];
 

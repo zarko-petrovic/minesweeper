@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Grid, Typography } from '@mui/material';
 
-import { MineField } from '../../components/MineField/MineField';
+import { MineField } from '../MineField/MineField';
 import { useAppSelector } from '../../app/hooks';
 import { webSocket } from '../../app/webSocket';
 import {

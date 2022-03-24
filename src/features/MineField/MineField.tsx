@@ -6,7 +6,7 @@ import { webSocket } from '../../app/webSocket';
 import {
   selectMineFieldsFlaggedBombs,
   updateMineFieldsFlaggedBomb
-} from '../../features/mineFields/mineFieldsSlice';
+} from '../mineFields/mineFieldsSlice';
 
 interface MineFieldProps {
   i: number;
