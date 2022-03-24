@@ -14,7 +14,7 @@ interface MineFieldProps {
   cell: string
 }
 
-export const MineField = (props: MineFieldProps) => {
+const MineField = (props: MineFieldProps) => {
   const { i, j, cell } = props;
   const flaggedBombs = useAppSelector(selectMineFieldsFlaggedBombs);
   const dispatch = useAppDispatch();
@@ -43,3 +43,5 @@ export const MineField = (props: MineFieldProps) => {
     </Button>
   );
 };
+
+export const MineFieldMemo = React.memo(MineField);

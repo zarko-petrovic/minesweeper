@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button, Grid, Typography } from '@mui/material';
 
-import { MineField } from '../mineField/MineField';
+import { MineFieldMemo } from '../mineField/MineField';
 import { useAppSelector } from '../../app/hooks';
 import { webSocket } from '../../app/webSocket';
 import {
@@ -45,7 +45,7 @@ export const MineFields = () => {
           {mines.map((row, i) => (
             <Grid key={i} item>
               {row.map((cell, j) => (
-                <MineField key={j} i={i} j={j} cell={cell} />
+                <MineFieldMemo key={j} i={i} j={j} cell={cell} />
               ))}
             </Grid>
           ))}
